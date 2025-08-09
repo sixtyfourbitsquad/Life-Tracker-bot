@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.venv/
+venv/
+
+# Local DB and state
+lifetrack.db*
+*.db
+*.db-shm
+*.db-wal
+
+# Exports and reports
+exports/
+
+# OS/Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials (keep Sheets creds outside repo)
+*credentials*.json
+service-account*.json
+*.key.json
+
